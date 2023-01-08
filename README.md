@@ -9,7 +9,7 @@
 docker-compose build
 docker-compose up -d
 ```
-And if you want to see logs, just put such command
+And if you want to see logs, just put such command(recommended)
 
 ```
 docker-compose logs -f
