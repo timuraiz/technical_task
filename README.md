@@ -3,7 +3,7 @@
 ## To run docker you need:
 - configure env file:
   - create your own postgres database
-  - put into file all required settings of this database
+  - put into file all required settings of this database(change variables where first part of var is 'POSTGRES')
 ## After all you can run the docker
 ```
 docker-compose build
