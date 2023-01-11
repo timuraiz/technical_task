@@ -41,6 +41,7 @@ class AuthService:
                     f'api_key={settings.API_KEY}',
                 raise_for_status=True
         ) as the_response:
+            # Добавить эксепшен, если hunter вернёт не 200
             result = await the_response.json()
         if result['data']['status'] == 'invalid':
             raise HTTPException(

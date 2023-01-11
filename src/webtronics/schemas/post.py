@@ -30,9 +30,9 @@ class Post(BasePost):
 
 class PostList(BaseModel):
     posts: List[Post]
+
     class Config:
         orm_mode = True
-
 
 
 class ReactionKind(str, Enum):

@@ -37,6 +37,7 @@ class Post(Base):
 
 class Reaction(Base):
     __tablename__ = 'reaction'
+    
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey('users.id'), index=True)
     post_id = Column(Integer, ForeignKey('posts.id'), index=True)
