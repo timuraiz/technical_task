@@ -16,3 +16,7 @@ docker-compose up
 ```
 - To see results you need to come to this address http://0.0.0.0:8000/docs
 
+# Additional task
+
+- In file tasks/task_2.py implementation of endpoint that can accept an unencoded link as a parameter and return it encoded
+- source link https://www.urlencoder.io/python/
