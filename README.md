@@ -15,15 +15,5 @@
 docker-compose build
 docker-compose up
 ```
-<<<<<<< HEAD
-And if you want to see logs, just put such command(recommended)
-
-```
-docker-compose logs -f
-```
-
-## How to see results?
 - To see results you need to come to this address http://0.0.0.0:8000/docs
-=======
-- And go to this web page http://0.0.0.0:8000/docs
->>>>>>> 5460b7a (Update)
+
