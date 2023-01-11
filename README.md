@@ -10,7 +10,6 @@
   - Put into .env file settings of your PostgreSQL db
   - Take API_KEY from emailhunter.co and put into .env file
 - After all run such commands in src dir:
->>>>>>> 5460b7a (Update)
 ```
 docker-compose build
 docker-compose up
